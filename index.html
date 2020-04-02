@@ -41,8 +41,8 @@
 		<div class="description">
 			<div class="descript_first">
 				<p>* enter your bunuses in line</p>
-				<p>* click button = </p>
-				<p>* You see your first million :)</p>
+				<p>* click button (=) </p>
+				<p>* You see your first million in $ :)</p>
 			</div>
 		</div>
 	</div>
@@ -53,11 +53,9 @@
 	}
 	function equal() {
 		var exp = document.form.textview.value;
-		var a = 0.055;
-		var b = 0.4;
-		var c = 24;
+		var a = 0.022;
 		if (exp) {
-			document.form.textview.value = eval(exp*a*b*c);
+			document.form.textview.value = eval(exp*a);
 		}
 	}
 	function clean() {
